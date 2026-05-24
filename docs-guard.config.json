@@ -1,0 +1,19 @@
+{
+  "rules": [
+    {
+      "changed": "src/api/**",
+      "docs": [
+        "docs/api.md"
+      ]
+    },
+    {
+      "changed": [
+        "src/routes/**",
+        "app/routes/**"
+      ],
+      "docs": [
+        "docs/routes.md"
+      ]
+    }
+  ]
+}

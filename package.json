@@ -1,0 +1,22 @@
+{
+  "name": "docs-guard",
+  "version": "0.1.0",
+  "description": "Configurable doc-sync checks for commits and CI.",
+  "type": "module",
+  "bin": {
+    "docs-guard": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "node src/cli.js --help"
+  },
+  "keywords": [
+    "cli",
+    "developer-tools",
+    "open-source"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
