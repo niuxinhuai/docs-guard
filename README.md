@@ -25,12 +25,33 @@ docs-guard --help
 Create docs-guard.config.json, then run docs-guard in CI or pre-commit.
 
 ```bash
-docs-guard\ndocs-guard --base main\ndocs-guard --config docs-guard.config.json
+docs-guard
+docs-guard --base main
+docs-guard --config docs-guard.config.json
+```
+
+Example config:
+
+```json
+{
+  "rules": [
+    {
+      "changed": "src/api/**",
+      "docs": ["docs/api.md"]
+    }
+  ]
+}
 ```
 
 ### Status
 
 This is an MVP designed to be useful immediately and easy to extend. It has no runtime dependencies and targets Node.js 18+.
+
+### Test
+
+```bash
+npm test
+```
 
 ## 中文
 
@@ -53,12 +74,33 @@ docs-guard --help
 创建 docs-guard.config.json，然后在 CI 或 pre-commit 中运行 docs-guard。
 
 ```bash
-docs-guard\ndocs-guard --base main\ndocs-guard --config docs-guard.config.json
+docs-guard
+docs-guard --base main
+docs-guard --config docs-guard.config.json
+```
+
+配置示例：
+
+```json
+{
+  "rules": [
+    {
+      "changed": "src/api/**",
+      "docs": ["docs/api.md"]
+    }
+  ]
+}
 ```
 
 ### 当前状态
 
 这是一个可以直接使用的 MVP，重点是小、清晰、容易二次开发。运行时无第三方依赖，要求 Node.js 18+。
+
+### 测试
+
+```bash
+npm test
+```
 
 ## License
 

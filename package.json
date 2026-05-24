@@ -7,15 +7,29 @@
     "docs-guard": "./src/cli.js"
   },
   "scripts": {
-    "test": "node src/cli.js --help"
+    "test": "node test/run-tests.js"
   },
   "keywords": [
     "cli",
     "developer-tools",
     "open-source"
   ],
-  "author": "",
+  "author": "niuxinhuai",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niuxinhuai/docs-guard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/niuxinhuai/docs-guard/issues"
+  },
+  "homepage": "https://github.com/niuxinhuai/docs-guard#readme",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE",
+    "docs-guard.config.json"
+  ],
   "engines": {
     "node": ">=18"
   }
