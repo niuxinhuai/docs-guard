@@ -1,5 +1,7 @@
 # docs-guard
 
+[![CI](https://github.com/niuxinhuai/docs-guard/actions/workflows/ci.yml/badge.svg)](https://github.com/niuxinhuai/docs-guard/actions/workflows/ci.yml)
+
 A small CI/commit hook tool that enforces documentation updates when configured source paths change.
 
 一个小型 CI / commit hook 工具：当配置的源码路径变更时，强制检查对应文档是否同步更新。
